@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: InkWell(
-                              onTap: () {},
+                              borderRadius: BorderRadius.circular(20),
                               child: Container(
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(20.0),
@@ -65,62 +65,84 @@ class HomePage extends StatelessWidget {
                                       color: Colors.white),
                                 ),
                               ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.orange,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.orange,
+                                ),
+                                alignment: Alignment.center,
+                                child: Text(
+                                  'X',
+                                  style: TextStyle(
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
+                                ),
                               ),
-                              alignment: Alignment.center,
-                              child: Text(
-                                'X',
-                                style: TextStyle(
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.bold,
+                              onTap: (){
+
+                              },
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.purple,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '%',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold,color: Colors.white),
+                                ),
+                              ),
+                              onTap: (){
+
+                              },
+                            ),
+
+                          ),
+                        ),
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.purple,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '/',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold,
                                   color: Colors.white,
+                                  ),
                                 ),
                               ),
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.purple,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '%',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold,color: Colors.white),
-                              ),
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.purple,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '/',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold,
-                                color: Colors.white,
-                                ),
-                              ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
@@ -142,80 +164,104 @@ class HomePage extends StatelessWidget {
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '7',
-                                style: TextStyle(
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '7',
+                                  style: TextStyle(
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
                                 ),
                               ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '8',
-                                style: TextStyle(
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '8',
+                                  style: TextStyle(
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
                                 ),
                               ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '9',
-                                style: TextStyle(
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '9',
+                                  style: TextStyle(
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
                                 ),
                               ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.purple,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '*',
-                                style: TextStyle(
-                                  fontSize: 45,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.purple,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '*',
+                                  style: TextStyle(
+                                    fontSize: 45,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
                                 ),
                               ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
@@ -237,151 +283,92 @@ class HomePage extends StatelessWidget {
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '4',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
                               ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '4',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '5',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
                               ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '5',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '6',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
                               ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '6',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.purple,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.purple,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '-',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
                               ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '-',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-          Expanded(
-            child: Padding(
-              padding: const EdgeInsets.only(left: 8.0, right: 8.0),
-              child: Column(
-                children: [
-                  Expanded(
-                    child: Row(
-                      children: [
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '1',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '2',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '3',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.purple,
-                              ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '+',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
@@ -403,34 +390,154 @@ class HomePage extends StatelessWidget {
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '1',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
                               ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '.',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '2',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
                               ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '0',
-                                style: TextStyle(
-                                    fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                              onTap: (){
+
+                              },
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '3',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
                               ),
+                              onTap: (){
+
+                              },
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.purple,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '+',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
+                              ),
+                              onTap: (){
+
+                              },
+                            ),
+
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.only(left: 8.0, right: 8.0),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '.',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
+                              ),
+                              onTap: (){
+
+                              },
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '0',
+                                  style: TextStyle(
+                                      fontSize: 45, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
+                              ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
@@ -438,17 +545,23 @@ class HomePage extends StatelessWidget {
                           flex: 2,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(20.0),
-                                color: Colors.blueGrey,
+                            child: InkWell(
+                              borderRadius: BorderRadius.circular(20),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20.0),
+                                  color: Colors.blueGrey,
+                                ),
+                                alignment: Alignment.center,
+                                child: const Text(
+                                  '=',
+                                  style: TextStyle(
+                                      fontSize: 65, fontWeight: FontWeight.bold, color: Colors.white,),
+                                ),
                               ),
-                              alignment: Alignment.center,
-                              child: const Text(
-                                '=',
-                                style: TextStyle(
-                                    fontSize: 65, fontWeight: FontWeight.bold, color: Colors.white,),
-                              ),
+                              onTap: (){
+
+                              },
                             ),
                           ),
                         ),
