@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    final provider = Provider.of<CalculatorProvider>(context, listen: false);
+    final provider = Provider.of<CalculatorProvider>(context, listen: true);
 
     return Scaffold(
       appBar: AppBar(
@@ -28,8 +28,8 @@ class HomePage extends StatelessWidget {
                     color: Colors.white,
                     child: Padding(
                       padding: const EdgeInsets.all(15.0),
-                      child: const Text(
-                        'Display',
+                      child: Text(
+                        '${provider.result}',
                         style: TextStyle(
                             fontSize: 65, fontWeight: FontWeight.bold,
                         color: Colors.blueGrey),
@@ -187,7 +187,8 @@ class HomePage extends StatelessWidget {
                                 ),
                               ),
                               onTap: (){
-
+                                provider.value7 = 7;
+                                print(provider.value7);
                               },
                             ),
                           ),
@@ -213,7 +214,8 @@ class HomePage extends StatelessWidget {
                                 ),
                               ),
                               onTap: (){
-
+                                provider.value8 = 8;
+                                print(provider.value8);
                               },
                             ),
                           ),
@@ -479,7 +481,7 @@ class HomePage extends StatelessWidget {
                                 ),
                               ),
                               onTap: (){
-
+                                provider.operators = '+';
                               },
                             ),
 
@@ -565,7 +567,8 @@ class HomePage extends StatelessWidget {
                                 ),
                               ),
                               onTap: (){
-
+                                provider.check = '=';
+                                provider.caluate();
                               },
                             ),
                           ),
